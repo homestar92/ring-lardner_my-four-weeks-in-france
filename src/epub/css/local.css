@@ -41,7 +41,7 @@ p span.i2{
 
 /* Custom poetry CSS */
 blockquote[epub|type~="z3998:poem"] header p{
-	text-align: center;
 	font-variant: small-caps;
+	text-align: center;
 }
 /* End custom poetry CSS */
