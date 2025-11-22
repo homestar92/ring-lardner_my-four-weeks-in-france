@@ -45,3 +45,9 @@ blockquote[epub|type~="z3998:poem"] header p{
 	text-align: center;
 }
 /* End custom poetry CSS */
+
+/* unordered lists without bullets */
+ul{
+	list-style: none;
+}
+/* end unordered lists without bullets */
