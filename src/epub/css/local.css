@@ -1,6 +1,7 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
+/* header styling */
 [epub|type~="z3998:diary-entry"] + [epub|type~="z3998:diary-entry"]{
 	margin-top: 1em;
 }
@@ -9,7 +10,9 @@
 	font-variant: small-caps;
 	text-align: center;
 }
+/* end header styling */
 
+/* poetry */
 [epub|type~="z3998:poem"] p{
 	text-align: initial;
 	text-indent: 0;
@@ -29,6 +32,7 @@ p span.i1{
 	padding-left: 2em;
 	text-indent: -1em;
 }
+/* end poetry */
 
 /* postscripts */
 [epub|type~="z3998:postscript"]{
