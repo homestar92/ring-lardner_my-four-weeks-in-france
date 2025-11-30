@@ -6,7 +6,7 @@
 }
 
 [epub|type~="z3998:diary-entry"] > header{
-	font-style: italic;
+	font-variant: small-caps;
 	text-align: center;
 }
 
