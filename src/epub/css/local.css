@@ -9,7 +9,7 @@
 	text-align: center;
 }
 
-[epub|type~="z3998:diary-entry"] > header > p[xml|lang] {
+[epub|type~="z3998:diary-entry"] > header > p[xml|lang]{
 	font-style: italic;
 }
 /* end header styling */
